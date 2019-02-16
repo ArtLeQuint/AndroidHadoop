@@ -8,6 +8,8 @@ inputSNCF
 output/
 output-final/
 sncf_classes/
+*.csv
+input
 
 ### ApacheHadoop ###
 *.iml
