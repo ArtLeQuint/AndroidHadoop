@@ -2,6 +2,13 @@
 # Created by https://www.gitignore.io/api/java,apachehadoop,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=java,apachehadoop,visualstudiocode
 
+### Personal ###
+.vscode/
+inputSNCF
+output/
+output-final/
+sncf_classes/
+
 ### ApacheHadoop ###
 *.iml
 *.ipr

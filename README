@@ -1,4 +1,4 @@
-Pour tester exemple SNCF : 
+Pour tester exemple SNCF (ne pas oublier de dezipper) : 
 
 $ mkdir sncf_classes
 $ hadoop com.sun.tools.javac.Main -d sncf_classes Exemple_SNCF.java
