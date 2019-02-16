@@ -1,3 +1,14 @@
+Pour tester exemple SNCF : 
+
+$ mkdir sncf_classes
+$ hadoop com.sun.tools.javac.Main -d sncf_classes Exemple_SNCF.java
+$ jar  -cvf exemple_sncf.jar -C sncf_classes/ .
+$ hadoop jar exemple_sncf.jar Exemple_SNCF inputSNCF output
+
+
+
+
+
 
 Comment compiler et exécuter l'exemple WordCount.java en mode standalone
 =======================================================================

@@ -13,7 +13,7 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.GenericOptionsParser;
 
-public class SNCF {
+public class Exemple_SNCF {
 
   public static class TokenizerMapperA 
        extends Mapper<Object, Text, Text, IntWritable>{
@@ -106,11 +106,11 @@ public class SNCF {
     FileSystem fs = FileSystem.newInstance(conf);
 
     if (otherArgs.length != 2) {
-      System.err.println("Usage: SNCF <in> <out>");
+      System.err.println("Usage: Exemple_SNCF <in> <out>");
       System.exit(2);
     }
-    Job jobA = new Job(conf, "SNCF");
-    jobA.setJarByClass(SNCF.class);
+    Job jobA = new Job(conf, "Exemple_SNCF");
+    jobA.setJarByClass(Exemple_SNCF.class);
 
     jobA.setMapperClass(TokenizerMapperA.class);
     jobA.setMapOutputKeyClass(Text.class);
@@ -124,8 +124,8 @@ public class SNCF {
     FileOutputFormat.setOutputPath(jobA, new Path(otherArgs[1]));
     jobA.waitForCompletion(true);
 
-    Job jobB = new Job(conf, "SNCF");
-    jobB.setJarByClass(SNCF.class);
+    Job jobB = new Job(conf, "Exemple_SNCF");
+    jobB.setJarByClass(Exemple_SNCF.class);
 
     jobB.setMapperClass(TokenizerMapperB.class);
     jobB.setMapOutputKeyClass(IntWritable.class);

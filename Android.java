@@ -51,12 +51,14 @@ public class Android {
     //Faut s'inspirer de ça//
     /////////////////////////
 
-    /*
-    private Text result = new Text();
+    
+    //private Text result = new Text();
 
+    
     public void reduce(Text key, Iterable<IntWritable> values,
                        Context context
                        ) throws IOException, InterruptedException {
+    /*
       int[] tab = new int[12];
       for (IntWritable val : values) {
         ++tab[val.get() - 1];
