@@ -15,7 +15,7 @@ import org.apache.hadoop.util.GenericOptionsParser;
 
 /////////////////////////////////////////////////////
 // EXEMPLE SNCF COMMENTE A TRAVAILLER POUR ANDROID //
-////////////////////////////////////////////////////
+/////////////////////////////////////////////////////
 
 public class Android {
 
@@ -31,7 +31,7 @@ public class Android {
       /////////////////////////
       //Faut s'inspirer de ça//
       /////////////////////////
-
+      
       /*
       String tab[] = value.toString().split(";");
       if (tab.length == 6) {
