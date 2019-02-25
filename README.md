@@ -78,6 +78,7 @@ Results can be found in the output directory you choosed in the last command.
 ## Authors
 
 **DELRUE Arthur** - *Initial work* - [ArtLeQuint](https://github.com/ArtLeQuint).
+
 **FARAUX Sylvein** - *Initial work*.
 
 ## License
