@@ -33,29 +33,42 @@ Clone this project, then read "Use" section:
 #### Test example SNCF (don't forget to unzip inputs files) (used for dev)
 
 $ mkdir sncf_classes
+
 $ hadoop com.sun.tools.javac.Main -d sncf_classes Exemple_SNCF.java
+
 $ jar  -cvf exemple_sncf.jar -C sncf_classes/ .
+
 $ hadoop jar exemple_sncf.jar Exemple_SNCF inputSNCF output
 
 #### Test question 1
 
 $ mkdir q1_classes
+
 $ hadoop com.sun.tools.javac.Main -d q1_classes q1.java
+
 $ jar  -cvf q1.jar -C q1_classes/ .
+
 $ hadoop jar q1.jar q1 input outputq1
 
 #### Test question 2
 
 $ mkdir q2_classes
+
 $ hadoop com.sun.tools.javac.Main -d q2_classes q2.java
+
 $ jar  -cvf q2.jar -C q2_classes/ .
+
 $ hadoop jar q2.jar q2 input outputq2
+
 
 #### Test question 3
 
 $ mkdir q3_classes
+
 $ hadoop com.sun.tools.javac.Main -d q3_classes q3.java
+
 $ jar  -cvf q3.jar -C q3_classes/ .
+
 $ hadoop jar q3.jar q3 input outputq3
 
 #### Results
