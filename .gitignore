@@ -4,12 +4,8 @@
 
 ### Personal ###
 .vscode/
-inputSNCF
 output/
-output-final/
-sncf_classes/
-*.csv
-input
+bin/
 
 ### ApacheHadoop ###
 *.iml
