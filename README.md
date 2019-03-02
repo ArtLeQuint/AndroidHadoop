@@ -49,7 +49,7 @@ Results can be found in the output/Q1-final, output/Q2-final and output/Q3 direc
 
 **DELRUE Arthur** - *Initial work* - [ArtLeQuint](https://github.com/ArtLeQuint).
 
-**FARAUX Sylvein** - *Initial work*.
+**FARAUX Sylvein** - *Initial work* - [SylveinFARAUX](https://github.com/SylveinFARAUX).
 
 ## License
 
