@@ -40,6 +40,7 @@ Clone this project, then read "Use" section:
 You can use BuildAndroidHadoop.bat [java_path] to build the project, then use AndroidHadoop.bat [java_path] to generate results.
 
 [java_path] is necessary because you might have to move it, currently hadoop doesn't work if there is a space in your java, hadoop or in this repo path...
+If your computer is already configured and the JAVA_HOME environment variable is known, you can simply run "BuildAndroidHadoop.bat %JAVA_HOME%" and then "AndroidHadoop.bat %JAVA_HOME%"
 
 #### Results
 
