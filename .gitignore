@@ -6,6 +6,7 @@
 .vscode/
 output/
 bin/
+*.pdf
 
 ### ApacheHadoop ###
 *.iml
